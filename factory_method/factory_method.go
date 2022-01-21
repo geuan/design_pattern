@@ -30,7 +30,7 @@ type pig struct {
 }
 
 
-// 动物都有 Speake() 方法
+// 动物都有 Speak() 方法
 type Speaker interface {
 	Speak()
 	SetInfo(name,master string)   // 这里实际上是调用 animal 类型的方法

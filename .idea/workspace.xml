@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6ffa6dd8-8605-44ae-96b9-97adc921214d" name="Default Changelist" comment="" />
+    <list default="true" id="6ffa6dd8-8605-44ae-96b9-97adc921214d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract_factory/abstract_factory.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/abstract_factory/abstract_factory_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/factory_method/factory_method.go" beforeDir="false" afterPath="$PROJECT_DIR$/factory_method/factory_method.go" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,12 +22,17 @@
     </option>
   </component>
   <component name="GOROOT" path="D:/A_app/Go-1.15.6" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="23k9l1z6gLj9xOGEJKnl2Lucq7S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -39,7 +50,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build design_patterns">
+  <component name="RunManager" selected="Go Test.TestAbstractFactory in design_patterns/abstract_factory">
     <configuration name="go build design_patterns" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="design_patterns" />
       <working_directory value="$PROJECT_DIR$" />
@@ -58,8 +69,20 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
+    <configuration name="TestAbstractFactory in design_patterns/abstract_factory" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="design_patterns" />
+      <working_directory value="$PROJECT_DIR$/abstract_factory" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="design_patterns/abstract_factory" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestAbstractFactory$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestAbstractFactory in design_patterns/abstract_factory" />
         <item itemvalue="Go Build.go build design_patterns" />
         <item itemvalue="Go Build.go build main.go" />
       </list>
@@ -67,6 +90,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
